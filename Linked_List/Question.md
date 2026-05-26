@@ -13,3 +13,9 @@
 ### Solution Approaches
 
 1. **O(N + M)** - Take new tail and add smallest first 
+
+## 141 — Linked List Cycle
+
+### Solution Approaches
+
+1. **O(N)** - use slow fast pointer
