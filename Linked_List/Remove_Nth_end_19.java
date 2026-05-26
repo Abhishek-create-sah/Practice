@@ -1,6 +1,8 @@
 package Linked_List;
 
 public class Remove_Nth_end_19 {
+    // Solution 1 : O(2n)
+
     // To find length
     private int length(ListNode head){
         int res = 0 ;
@@ -27,4 +29,8 @@ public class Remove_Nth_end_19 {
         temp.next = temp.next.next ;
         return dummy.next ;
     }
+
+    // Solution 2 : O(n) using 2 pointer approach (fast and slow pointers)
+
+    
 }
